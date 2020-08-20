@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <color name="launcher_background">#111111</color>
-  <color name="colorPrimary">#3F51B5</color>
-  <color name="colorPrimaryDark">#303F9F</color>
-  <color name="colorAccent">#1976D2</color>
-  <color name="navigationBarColor">#111111</color>
-  <color name="statusBarColor">#111111</color>
-  <color name="windowBackground">#111111</color>
-  <color name="ListViewHighlighted">#232d6f</color>
-  <color name="ListViewSelected">#232d6f</color>
+  <color name="launcher_background">#000000</color>
+  <color name="colorPrimary">#B50000</color>
+  <color name="colorPrimaryDark">#9F0000</color>
+  <color name="colorAccent">#D20000</color>
+  <color name="navigationBarColor">#000000</color>
+  <color name="statusBarColor">#000000</color>
+  <color name="windowBackground">#000000</color>
+  <color name="ListViewHighlighted">#6f0000</color>
+  <color name="ListViewSelected">#6f0000</color>
 </resources>
