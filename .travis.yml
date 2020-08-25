@@ -3,7 +3,7 @@ language: csharp
 mono: none
 solution: CloudStreamForms.sln
 install:
-  - choco install dotnetcore --version=2.1.0
+  - choco install dotnetcore
 script:
   - dotnet restore
   - dotnet publish -r android CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj --self-contained true
