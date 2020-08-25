@@ -7,12 +7,8 @@ global:
   - MONO_ANDROID_VERSION=7.0.2-42
 language: csharp
 install:
-  - curl -L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer | bash /dev/stdin --install=$ANDROID_COMPONENTS --accept=$ANDROID_LICENSES
-  - source ~/.android-sdk-installer/env
-  - wget "http://download.mono-project.com/archive/${MONO_VERSION}/macos-10-universal/MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.universal.pkg"
-  - sudo installer -pkg "MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.universal.pkg" -target /
-  - wget "https://dl.xamarin.com/MonoforAndroid/Mac/xamarin.android-${MONO_ANDROID_VERSION}.pkg"
-  - sudo installer -pkg "xamarin.android-${MONO_ANDROID_VERSION}.pkg" -target /
+  - dotnet tool install --global boots
+  - boots https://aka.ms/xamarin-android-commercial-d16-2-macos
   - nuget restore CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 script:
   - msbuild /t:SignAndroidPackage /p:Configuration=Release CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
