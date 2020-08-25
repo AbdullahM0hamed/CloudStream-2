@@ -12,7 +12,7 @@ branches:
 script:
   - curl -L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer -o android-sdk-installer
   - chmod u+x android-sdk-installer
-  - ./android-sdk-installer --dir=./android-sdk --install=build-tools-29.0.0,android-29,platform-tools-29.0.0 --accept="android-sdk-license-e6a904e8|android-sdk-license-e6a904e8|android-sdk-license-e6a904e8"
+  - ./android-sdk-installer --dir=./android-sdk --install=build-tools-28.0.0,android-28,platform-tools-28.0.0 --accept="android-sdk-license-e6a904e8|android-sdk-license-e6a904e8|android-sdk-license-e6a904e8"
   - brew update
   - brew cask install adoptopenjdk/openjdk/adoptopenjdk8
   - export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
