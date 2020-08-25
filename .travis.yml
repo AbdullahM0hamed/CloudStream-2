@@ -18,5 +18,5 @@ script:
   - export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
   - dotnet tool install --global boots > nul
   - boots https://aka.ms/xamarin-android-commercial-d16-4-macos
-  - nuget restore CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
+  - nuget restore CloudStreamForms/CloudStreamForms.sln
   - msbuild /p:Configuration=Release /p:AndroidBuildApplicationPackage=true /t:Clean\;Build\;SignAndroidPackage CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
