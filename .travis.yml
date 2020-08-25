@@ -6,4 +6,4 @@ install:
   - choco install dotnetcore-sdk
 script:
   - dotnet restore
-  - msbuild /t:SignAndroidPackage /p:Configuration=Release CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
+  - dotnet publish -r android CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj --self-contained true
