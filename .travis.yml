@@ -2,8 +2,8 @@ os: windows
 language: csharp
 mono: none
 solution: CloudStreamForms.sln
-dotnet: 2.1
 install:
+  - choco install dotnetcore --version=2.1.0
   - dotnet tool install --global boots
   - boots https://aka.ms/xamarin-android-commercial-d16-2-windows
 script:
