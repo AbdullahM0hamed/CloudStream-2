@@ -1,6 +1,8 @@
 os: windows
 language: csharp
-install:
-  - nuget restore CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
+mono: none
+dotnet: 2.1.502
+solution: CloudStreamForms.sln
 script:
+  - dotnet restore
   - msbuild /t:SignAndroidPackage /p:Configuration=Release CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
