@@ -1,22 +1,5 @@
-os:
-  - osx
-
-env:
-  global:
-    - ANDROID_COMPONENTS=build-tools-25.0.1,android-24,extra-android-support,extra-google-google_play_services,extra-google-m2repository,extra-android-m2repository
-    - ANDROID_LICENSES=android-sdk-license-c81a61d9
-    - MONO_VERSION=6.10.0
-    - MONO_ANDROID_VERSION=7.0.2-42
-
+language: csharp
 install:
-  - curl -L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer | bash /dev/stdin --install=$ANDROID_COMPONENTS --accept=$ANDROID_LICENSES
-  - source ~/.android-sdk-installer/env
-  - wget "http://download.mono-project.com/archive/${MONO_VERSION}/macos-10-universal/MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.universal.pkg"
-  - sudo installer -pkg "MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.universal.pkg" -target /
-  - wget "https://dl.xamarin.com/MonoforAndroid/Mac/xamarin.android-${MONO_ANDROID_VERSION}.pkg"
-  - sudo installer -pkg "xamarin.android-${MONO_ANDROID_VERSION}.pkg" -target /
-  - /Library/Frameworks/Mono.framework/Commands/nuget restore CloudStreamForms.sln
-
+  - nuget restore CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 script:
-  - /Library/Frameworks/Mono.framework/Commands/xbuild /t:SignAndroidPackage /p:Configuration=Release CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
-
+  - msbuild /t:SignAndroidPackage /p:Configuration=Release CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
