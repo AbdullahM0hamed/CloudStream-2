@@ -5,10 +5,9 @@ global:
   - ANDROID_LICENSES=android-sdk-license-c81a61d9
   - MONO_VERSION=6.10.0
   - MONO_ANDROID_VERSION=7.0.2-42
-dotnet: 2.0
 language: csharp
 install:
-  - dotnet tool install --global boots
+  - nuget install boots
   - boots https://aka.ms/xamarin-android-commercial-d16-2-macos
   - nuget restore CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 script:
