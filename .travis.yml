@@ -2,10 +2,10 @@ os: windows
 language: csharp
 mono: none
 solution: CloudStreamForms.sln
+dotnet: 2.1
 install:
-  - choco install dotnetcore-sdk
   - dotnet tool install --global boots
-script:
   - boots https://aka.ms/xamarin-android-commercial-d16-2-windows
+script:
   - dotnet restore
   - dotnet publish -r android CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj --self-contained true
