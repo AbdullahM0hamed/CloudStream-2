@@ -4,6 +4,8 @@ mono: none
 solution: CloudStreamForms.sln
 install:
   - choco install dotnetcore-sdk
+  - dotnet tool install --global boots
+  - boots https://aka.ms/xamarin-android-commercial-d16-2-windows
 script:
   - dotnet restore
   - dotnet publish -r android CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj --self-contained true
