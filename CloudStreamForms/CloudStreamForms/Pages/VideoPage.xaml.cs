@@ -1,5 +1,4 @@
-﻿using Android.Text.Style;
-using CloudStreamForms.Core;
+﻿using CloudStreamForms.Core;
 using FFImageLoading;
 using LibVLCSharp.Shared;
 using Rg.Plugins.Popup.Extensions;
