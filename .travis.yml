@@ -9,6 +9,10 @@ mono: 6.6.0
 branches:
   only:
     - master
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode11.2
 script:
   - curl -L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer -o android-sdk-installer
   - chmod u+x android-sdk-installer
