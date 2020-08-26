@@ -19,4 +19,4 @@ script:
   - dotnet tool install --global boots > nul
   - boots https://aka.ms/xamarin-android-commercial-d16-4-macos
   - nuget restore CloudStreamForms.sln
-  - travis_wait 200 msbuild /p:Configuration=Release /p:AndroidBuildApplicationPackage=true /t:Clean\;Build\;SignAndroidPackage CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
+  - travis_wait 200 msbuild /p:Configuration=Release /t:PackageForAndroid CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
