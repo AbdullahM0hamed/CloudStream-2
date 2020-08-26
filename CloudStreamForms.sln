@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStreamForms.UWP", "CloudStreamForms\CloudStreamForms.UWP\CloudStreamForms.UWP.csproj", "{3EE6A459-4861-4BD2-8BD7-406D1B8A1556}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStreamForms.Android", "CloudStreamForms\CloudStreamForms.Android\CloudStreamForms.Android.csproj", "{55AA8F8E-69F0-4C09-AE12-08CC456F116B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStreamForms.iOS", "CloudStreamForms\CloudStreamForms.iOS\CloudStreamForms.iOS.csproj", "{3BE89311-423C-44B9-84E4-4479679EAE67}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudStreamForms", "CloudStreamForms\CloudStreamForms\CloudStreamForms.csproj", "{EF1EE33F-5F5B-43C9-8130-27137E4C4223}"
 EndProject
