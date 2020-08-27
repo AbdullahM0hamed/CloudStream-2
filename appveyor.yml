@@ -1,2 +1,4 @@
 before_build:
   - nuget restore CloudStreamForms.sln
+artifacts:
+  - path 'CloudStreamForms\CloudStreamForms.Android\bin'
