@@ -1,4 +1,6 @@
 before_build:
   - nuget restore CloudStreamForms.sln
+build_script:
+  - msbuild /m /p:Configuration=Release /t:PackageForAndroid CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 artifacts:
   - path: 'CloudStreamForms\'
