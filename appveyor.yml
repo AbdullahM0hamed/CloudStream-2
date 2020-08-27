@@ -3,4 +3,4 @@ before_build:
 build_script:
   - msbuild /m /p:Configuration=Release /t:PackageForAndroid CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 artifacts:
-  - path: 'CloudStreamForms\'
+  - path: 'CloudStreamForms\CloudStreamForms.Android\bin\Release\com.CloudStreamForms.CloudStreamForms.apk'
