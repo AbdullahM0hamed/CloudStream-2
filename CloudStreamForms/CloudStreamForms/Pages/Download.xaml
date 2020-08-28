@@ -10,7 +10,7 @@
              x:Class="CloudStreamForms.Download">
 	<Grid>
 		<Image x:Name="baseImg" VerticalOptions="Fill" HorizontalOptions="Fill" Scale="0.8" BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  InputTransparent="True"></Image>
-		<Label x:Name="baseTxt" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" TextColor="#434343" ClassId="CUST" FontAttributes="Bold" FontSize="18" TranslationY="120" InputTransparent="True" Text="No Downloads"></Label>
+		<Label x:Name="baseTxt" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" TextColor="#880000" ClassId="CUST" FontAttributes="Bold" FontSize="18" TranslationY="120" InputTransparent="True" Text="No Downloads"></Label>
 
 		<StackLayout>
 			<ProgressBar x:Name="SpaceProgress" HorizontalOptions="Fill" Progress="0.7" ProgressColor="#303F9F" ></ProgressBar>

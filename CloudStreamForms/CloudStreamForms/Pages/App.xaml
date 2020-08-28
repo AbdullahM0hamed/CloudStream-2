@@ -11,10 +11,10 @@
 
             <!-- COLORS -->
             <Color x:Key="BlackColor">#000000</Color>
-            <Color x:Key="BackgroundColor">#181818</Color>
-            <Color x:Key="MenuBackgroundColor">#272627</Color>
-            <Color x:Key="MenuTextColor">#B9B8B9</Color>
-            <Color x:Key="WhiteColor">#FFFFFF</Color>
+            <Color x:Key="BackgroundColor">#000</Color>
+            <Color x:Key="MenuBackgroundColor">#000</Color>
+            <Color x:Key="MenuTextColor">#B90000</Color>
+            <Color x:Key="WhiteColor">#F00</Color>
             
             <!--
             <Style TargetType="Label" >
