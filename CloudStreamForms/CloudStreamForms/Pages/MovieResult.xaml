@@ -52,7 +52,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
 
 
 
-								<Label Grid.Column="0"  x:Name="RatingLabelRating" Text="" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" TranslationX="10" FontSize="18"   TextColor="#4257d8"></Label>
+								<Label Grid.Column="0"  x:Name="RatingLabelRating" Text="" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" TranslationX="10" FontSize="18"   TextColor="#d80000"></Label>
 								<Label Grid.Column="1" x:Name="RatingLabel"   Text=""  HorizontalOptions="Start" TranslationX="10" VerticalOptions="Center"   TextColor="#640000"></Label>
 								<Button Grid.Column="2" x:Name="ReviewLabel"  BackgroundColor="Transparent" HorizontalOptions="End" TranslationX="10" VerticalOptions="Center" Text="Reviews" HeightRequest="30" WidthRequest="70" Margin="25,0" ClassId="CUST" TextColor="#F00" BorderWidth="2" CornerRadius="5" BorderColor="#303F9F" Opacity="0"></Button>
 							</Grid>
@@ -359,7 +359,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                                 <Image  Grid.Row="0"  Grid.Column="0" Source="{Binding DownloadSource}" IsVisible="{Binding IsNotSearchingDownloadResults}" HeightRequest="30" WidthRequest="60"   HorizontalOptions="End"   BackgroundColor="Transparent" Scale="{Binding DownloadSize}"  InputTransparent="True"></Image>
                                                 <Grid  Grid.Row="0"  Grid.Column="0" HeightRequest="60" VerticalOptions="Center">
                                                     <xe:BorderView   Opacity="0.4" xe:TouchEffect.Color="White" TranslationX="0"  WidthRequest="60"  xe:BorderColor="White" xe:CornerRadius="30" HorizontalOptions="End"  xe:Commands.Tap="{Binding TapCom}"  ></xe:BorderView>
-                                                    <ActivityIndicator IsVisible="{Binding IsSearchingDownloadResults}" IsRunning="True" Color="#4257d8"  BackgroundColor="Transparent" Grid.Row="0"  Grid.Column="0" TranslationX="-10"  HeightRequest="40" WidthRequest="40"   HorizontalOptions="End" Scale="1"  InputTransparent="True"></ActivityIndicator>
+                                                    <ActivityIndicator IsVisible="{Binding IsSearchingDownloadResults}" IsRunning="True" Color="#d80000"  BackgroundColor="Transparent" Grid.Row="0"  Grid.Column="0" TranslationX="-10"  HeightRequest="40" WidthRequest="40"   HorizontalOptions="End" Scale="1"  InputTransparent="True"></ActivityIndicator>
                                                 </Grid>
 
 
