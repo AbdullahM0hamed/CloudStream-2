@@ -16,7 +16,7 @@
                     <Image x:Name="BackFaded" Scale="1.2" Opacity="0.2" TranslationY="200" Aspect="AspectFill" VerticalOptions="EndAndExpand" HorizontalOptions="Fill" InputTransparent="True"></Image>
                 </StackLayout>
             <StackLayout  >
-                <Label x:Name="NameLabel" FontSize="Title"  FontAttributes="Bold" HorizontalOptions="Center" Margin="0,10,0,-5" TextColor="White" ></Label>
+                <Label x:Name="NameLabel" FontSize="Title"  FontAttributes="Bold" HorizontalOptions="Center" Margin="0,10,0,-5" TextColor="#F00" ></Label>
                 <Label x:Name="EpsodeName"  HorizontalOptions="Center" TextColor="Gray" Margin="0"></Label>
 
                 <ff:CachedImage x:Name="Poster" HeightRequest="225" WidthRequest="150"  InputTransparent="True" Margin="20" TranslationY="20">

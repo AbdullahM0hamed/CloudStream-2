@@ -18,11 +18,11 @@ namespace CloudStreamForms
     [DesignTimeVisible(false)]
     public partial class MainPage : Xamarin.Forms.TabbedPage
     {
-        public const string DARK_BLUE_COLOR = "#303F9F";
-        public const string LIGHT_BLUE_COLOR = "#829eff";
+        public const string DARK_BLUE_COLOR = "#9F0000";
+        public const string LIGHT_BLUE_COLOR = "#820000";
         public const string LIGHT_BLACK_COLOR = "#595959";
         public const string LIGHT_LIGHT_BLACK_COLOR = "#e6e6e6";
-        public const string BLACK_COLOR = "#111111";
+        public const string BLACK_COLOR = "#000000";
         public const string ITEM_COLOR = "#617eff";
         public const string LIGHT_DARK_BLUE_COLOR = "#1976D2";
 
