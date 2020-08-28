@@ -40,7 +40,7 @@ namespace CloudStreamForms.Core
                 new KissFreeAnimeProvider(this),
                 new AnimeSimpleProvider(this),
                 new VidstreamingAnimeProvider(this),
-             //   new AnimeVibeBloatFreeProvider(this), // HCaptcha ??
+                new AnimeVibeBloatFreeProvider(this), // HCaptcha ??
                 new NineAnimeBloatFreeProvider(this),
                 new FourAnimeBloatFreeProvider(this)};
             movieProviders = new IMovieProvider[] {
