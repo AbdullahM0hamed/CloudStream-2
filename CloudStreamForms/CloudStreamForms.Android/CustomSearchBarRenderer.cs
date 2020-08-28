@@ -61,7 +61,7 @@ namespace CloudStreamForms.Droid
                 searchPlateIcon.TranslationX = -5;
                 
                 (searchPlateIcon as ImageView).SetImageDrawable(context.GetDrawable(Resource.Drawable.MainSearchIcon));
-                (searchPlateIcon as ImageView).SetColorFilter(G.Color.Rgb(190, 190, 190));
+                (searchPlateIcon as ImageView).SetColorFilter(G.Color.Rgb(190, 0, 0));
             }
         }
     }

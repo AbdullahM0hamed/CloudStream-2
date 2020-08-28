@@ -36,7 +36,7 @@ namespace CloudStreamForms
 
             SearchBar searchBar = new SearchBar() {
                 Placeholder = "Movie Search...",
-                CancelButtonColor = Color.FromRgb(190, 190, 190),
+                CancelButtonColor = Color.FromRgb(190, 0, 0),
                 TranslationY = 3,
             };
 
