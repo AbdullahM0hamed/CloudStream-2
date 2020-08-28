@@ -68,7 +68,7 @@ namespace CloudStreamForms
                     // poster.SetBinding(Image.SourceProperty, "Poster");
                     //  desLabel.FontSize = nameLabel.FontSize / 1.2f;
                     desLabel.FontSize = 12;
-                    desLabel.TextColor = Color.FromHex("#828282"); // 
+                    desLabel.TextColor = Color.FromHex("#820000"); // 
                     nameLabel.TextColor = Color.FromHex("#ff0000");
                     nameLabel.FontSize = 15;
 
