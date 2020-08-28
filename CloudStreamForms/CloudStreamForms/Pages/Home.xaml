@@ -38,11 +38,7 @@
         </Grid>
         <Grid VerticalOptions="Fill"   HeightRequest="20000">
 
-            <Image x:Name="baseImg" IsVisible="False" VerticalOptions="Fill" HorizontalOptions="Fill" Scale="0.6" BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  InputTransparent="True" TranslationY="-40">
-                <Image.Effects>
-                    <effects:TintImageEffect TintColor="Red"/>
-                </Image.Effects
-            </Image>
+            <Image x:Name="baseImg" IsVisible="False" VerticalOptions="Fill" HorizontalOptions="Fill" Scale="0.6" BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  InputTransparent="True" TranslationY="-40"></Image>
             <Label x:Name="baseTxt" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" TextColor="#880000" ClassId="CUST" FontAttributes="Bold" FontSize="18" TranslationY="80" InputTransparent="True" Text="No Bookmarks"></Label>
             <!--<Button x:Name="baseMore" IsVisible="true" BackgroundColor="White" CornerRadius="10" TextColor="Black" ClassId="CUST" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="30" FontAttributes="Bold" FontSize="18" TranslationY="200" Padding="10,0" InputTransparent="True" Text="Search for more titles"></Button>-->
 
