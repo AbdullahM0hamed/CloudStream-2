@@ -40,8 +40,8 @@ namespace CloudStreamForms.Droid
             if (color < 0) color = -color * 2;
             textView.SetBackgroundColor(G.Color.Rgb(color, color, color));//Settings.BlackBg ? G.Color.Rgb(12, 12, 12) : G.Color.Rgb(25, 25, 25));
 
-            textView.SetHintTextColor(G.Color.Rgb(64, 64, 64));
-            textView.SetTextColor(G.Color.Rgb(200, 200, 200));
+            textView.SetHintTextColor(G.Color.Rgb(64, 0, 0));
+            textView.SetTextColor(G.Color.Rgb(200, 0, 0));
             /*
             textView.SetTextColor(G.Color.Rgb(32, 32, 32));
             textView.SetHintTextColor(G.Color.Rgb(128, 128, 128));*/
