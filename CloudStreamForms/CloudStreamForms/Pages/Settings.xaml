@@ -14,7 +14,7 @@
         <ScrollView>
 
             <StackLayout >
-                <Label Margin="3,5.1" Text="Settings" HorizontalOptions="Center"  FontSize="25"   TextColor="#ffffff" ></Label>
+                <Label Margin="3,5.1" Text="Settings" HorizontalOptions="Center"  FontSize="25"   TextColor="#ff0000" ></Label>
 
 
                 <Grid RowSpacing="2">
@@ -46,7 +46,7 @@
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-                    <Label Grid.Row="0" Text="General" x:Name="G_GeneralTxt"  FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10,20,10,10" TextColor="#ffffff"></Label>
+                    <Label Grid.Row="0" Text="General" x:Name="G_GeneralTxt"  FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10,20,10,10" TextColor="#ff0000"></Label>
                     <!-- INSTANT SEARCH -->
                     <Grid  x:Name="G_InstatSearch"  BackgroundColor="#141414" ColumnSpacing="10" HeightRequest="50">
                         <Grid.ColumnDefinitions >
@@ -135,7 +135,7 @@
                     </Grid>
 
 
-                    <Label x:Name="G_UITxt" Text="UI" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ffffff"></Label>
+                    <Label x:Name="G_UITxt" Text="UI" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ff0000"></Label>
 
 
                     <!-- Statusbar -->
@@ -226,7 +226,7 @@
                     </Grid>
 
 
-                    <Label x:Name="G_ClearData" Text="Clear Data" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ffffff"></Label>
+                    <Label x:Name="G_ClearData" Text="Clear Data" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ff0000"></Label>
 
                     <!-- Clear history -->
 
@@ -280,7 +280,7 @@
                         <Label Grid.Column="1" Text="Reset settings" HorizontalOptions="Start" VerticalOptions="Center"  FontSize="Body" TextColor="{Binding MainTxtColor}"></Label>
                     </Grid>
 
-                    <Label x:Name="G_TimeTxt"  Text="Time" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ffffff"></Label>
+                    <Label x:Name="G_TimeTxt"  Text="Time" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ff0000"></Label>
 
                     <Grid  Grid.Row="16"  BackgroundColor="#141414" ColumnSpacing="10" HeightRequest="50" x:Name="G_CastTime">
                         <Grid.ColumnDefinitions >
@@ -302,7 +302,7 @@
 
                     </Grid>
 
-                    <Label x:Name="G_BuildTxt"  Text="Build" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ffffff"></Label>
+                    <Label x:Name="G_BuildTxt"  Text="Build" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10" TextColor="#ff0000"></Label>
 
                     <Button x:Name="SubtitleStyle" Text="Style" BackgroundColor="#141414"  HeightRequest="50"></Button>
                     <Button x:Name="SubtitleFont" Text="Style" BackgroundColor="#141414"  HeightRequest="50"></Button>

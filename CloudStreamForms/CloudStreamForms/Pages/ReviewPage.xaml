@@ -7,7 +7,7 @@
              x:Class="CloudStreamForms.ReviewPage">
 	<ContentPage.Content>
 		<StackLayout x:Name="MainStack">
-			<Label x:Name="ReviewTitle" Margin="3" Text="Reviews" HorizontalOptions="Center"  FontSize="25"   TextColor="#ffffff"  ></Label>
+			<Label x:Name="ReviewTitle" Margin="3" Text="Reviews" HorizontalOptions="Center"  FontSize="25"   TextColor="#ff0000"  ></Label>
 			<ProgressBar ClassId="id" x:Name="MainLoading"></ProgressBar>
 		<!--	<RefreshView BackgroundColor="#1D1D1D" RefreshColor="#4e66ff" Command="{Binding RefreshCommand}" 
            IsRefreshing="{Binding IsRefreshing}"         >-->

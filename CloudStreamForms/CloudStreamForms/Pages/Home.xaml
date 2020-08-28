@@ -11,7 +11,7 @@
              x:Class="CloudStreamForms.Home">
     <StackLayout x:Name="MainStack" >
 
-        <Label x:Name="TitleName" Margin="3" Text="Home" Padding="0,10,0,5" HorizontalOptions="Center"  FontSize="25"   TextColor="#ffffff" ></Label>
+        <Label x:Name="TitleName" Margin="3" Text="Home" Padding="0,10,0,5" HorizontalOptions="Center"  FontSize="25"   TextColor="#ff0000" ></Label>
 
         <!--TextColor="#303F9F"-->
         <!--   <Label Text="Bookmarks" FontAttributes="Italic" TranslationX="10" VerticalOptions="Start" HorizontalOptions="FillAndExpand" FontSize="Small"  x:Name="BTxt"></Label>-->

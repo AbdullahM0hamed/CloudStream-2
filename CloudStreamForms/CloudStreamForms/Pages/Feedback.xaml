@@ -10,7 +10,7 @@
             <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" InputTransparent="True">
                 <ProgressBar HorizontalOptions="Fill"  x:Name="FormsLoading" InputTransparent="True"  IsVisible="False" IsEnabled="True" ClassId="id" TranslationY="-7" ></ProgressBar>
             </StackLayout>
-            <Label Margin="3,5.1" Text="Feedback" HorizontalOptions="Center"  FontSize="25"   TextColor="#ffffff" ></Label>
+            <Label Margin="3,5.1" Text="Feedback" HorizontalOptions="Center"  FontSize="25"   TextColor="#ff0000" ></Label>
 
             <Grid RowSpacing="10" >
                 <Grid.RowDefinitions >

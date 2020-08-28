@@ -764,7 +764,7 @@ namespace CloudStreamForms
 
             string id = episodeResult.IMDBEpisodeId;
             if (id != "") {
-                List<string> hexColors = new List<string>() { "#ffffff", LIGHT_BLUE_COLOR, "#e5e598" };
+                List<string> hexColors = new List<string>() { "#ff0000", LIGHT_BLUE_COLOR, "#e5e598" };
                 List<string> darkHexColors = new List<string>() { "#900000", DARK_BLUE_COLOR, "#d3c450" };
                 int color = 0;
                 if (App.KeyExists(App.VIEW_HISTORY, id)) {

@@ -13,7 +13,7 @@
         <ScrollView>
 
             <StackLayout >
-                <Label Margin="3,5,3,5" Text="Settings" HorizontalOptions="Center"  FontSize="25"  TranslationY="3" TextColor="#ffffff" ></Label>
+                <Label Margin="3,5,3,5" Text="Settings" HorizontalOptions="Center"  FontSize="25"  TranslationY="3" TextColor="#ff0000" ></Label>
                 <Image x:Name="SplitImg" Source="gradient.png" HeightRequest="3" HorizontalOptions="Fill" ScaleX="100" Opacity="0.3" Margin="0,9,0,-13"></Image>
 
                 <Grid RowSpacing="2" x:Name="AddTextGrid">
@@ -46,7 +46,7 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                      <!--
-                    <Label Grid.Row="0" Text="General" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10,20,10,10" TextColor="#ffffff"></Label>
+                    <Label Grid.Row="0" Text="General" FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10,20,10,10" TextColor="#ff0000"></Label>
  
                     <Grid Grid.Row="1">
                         <Button  BackgroundColor="#141414">
@@ -71,7 +71,7 @@
                         </Grid>
 
                     </Grid>
-                    <Label Grid.Row="2" Text="General"  FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10,20,10,10" TextColor="#ffffff"></Label>
+                    <Label Grid.Row="2" Text="General"  FontSize="Body" FontAttributes="Bold" TranslationX="10" Margin="10,20,10,10" TextColor="#ff0000"></Label>
  -->
                 </Grid>
 
