@@ -166,7 +166,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <Button    x:Name="MovieTypePickerBtt"  VerticalOptions="End" HorizontalOptions="End" InputTransparent="False" Margin="10" WidthRequest="100" Text="Sci-Fi" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="40" BackgroundColor="#333333" ></Button>
+                <Button    x:Name="MovieTypePickerBtt"  VerticalOptions="End" HorizontalOptions="End" InputTransparent="False" Margin="10" WidthRequest="100" Text="Sci-Fi" TextColor="#e70000" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="40" BackgroundColor="#333333" ></Button>
                     <ProgressBar   x:Name="LoadingIndicator"  HorizontalOptions="Fill" ClassId="id" HeightRequest="15" VerticalOptions="Start" InputTransparent="True"></ProgressBar>
 
 

@@ -94,7 +94,7 @@
             </xe:BorderView>
 
             <Label x:Name="SkiptimeLabel" Text="" WidthRequest="1000" HorizontalTextAlignment="Center" TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center" TranslationY="-60"></Label>
-            <Label x:Name="EpisodeLabel"  Text="" VerticalOptions="Start" HorizontalOptions="Center" FontSize="14" TextColor="#e7e7e7" TranslationY="20"></Label>
+            <Label x:Name="EpisodeLabel"  Text="" VerticalOptions="Start" HorizontalOptions="Center" FontSize="14" TextColor="#e70000" TranslationY="20"></Label>
             <Grid x:Name="VideoSliderAndSettings"  VerticalOptions="End" ColumnSpacing="30">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />

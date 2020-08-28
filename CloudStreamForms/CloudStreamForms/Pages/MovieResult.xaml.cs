@@ -1554,7 +1554,7 @@ namespace CloudStreamForms
                     string p = e[i].PosterUrl;
                     if (CheckIfURLIsValid(p)) {
                         Grid stackLayout = new Grid();
-                        Label textLb = new Label() { Text = e[i].Name, TextColor = Color.FromHex("#e7e7e7"), FontAttributes = FontAttributes.Bold, FontSize = 15, TranslationX = 10 };
+                        Label textLb = new Label() { Text = e[i].Name, TextColor = Color.FromHex("#e70000"), FontAttributes = FontAttributes.Bold, FontSize = 15, TranslationX = 10 };
                         Image playBtt = new Image() { Source = GetImageSource("nexflixPlayBtt.png"), VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center, Scale = 0.5, InputTransparent = true };
                         var ff = new FFImageLoading.Forms.CachedImage {
                             Source = p,

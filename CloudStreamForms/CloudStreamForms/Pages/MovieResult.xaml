@@ -62,7 +62,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
 
 							</ff:CachedImage>
 							<ImageButton x:Name="ChromeCastBtt" BackgroundColor="Transparent" Clicked="ChromeCastBtt_Clicked"  WidthRequest="40" HeightRequest="40"  VerticalOptions="Center" HorizontalOptions="Start"></ImageButton>
-                            <Label x:Name="NameLabel" FontSize="Title" Text="Iron Man" FontAttributes="Bold" HorizontalOptions="Start" Margin="0,5,5,5"  TranslationX="-5.5" TranslationY="0" TextColor="#e7e7e7" InputTransparent="True"></Label>
+                            <Label x:Name="NameLabel" FontSize="Title" Text="Iron Man" FontAttributes="Bold" HorizontalOptions="Start" Margin="0,5,5,5"  TranslationX="-5.5" TranslationY="0" TextColor="#e70000" InputTransparent="True"></Label>
 						</Grid>
 
 						<Grid Grid.Row="3"  Grid.Column="0" InputTransparent="True">
@@ -213,12 +213,12 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                 <ColumnDefinition Width="Auto"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
                             <!--   <StackLayout Orientation="Horizontal" TranslationX="10" >-->
-                            <Button x:Name="SeasonBtt" Grid.Column="0" InputTransparent="False" Opacity="0" BackgroundColor="#333333" Text="Season 1" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" ></Button>
+                            <Button x:Name="SeasonBtt" Grid.Column="0" InputTransparent="False" Opacity="0" BackgroundColor="#333333" Text="Season 1" TextColor="#e70000" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" ></Button>
                             <!--   <Picker x:Name="SeasonPicker"  TranslationX="13" TextColor="Transparent" IsVisible="False" VerticalOptions="Center" HorizontalOptions="Start"  FontAttributes="Bold" FontSize="Body" ></Picker> -->
 
-                            <Button x:Name="DubBtt" Grid.Column="1" InputTransparent="False" BackgroundColor="#333333" Text="Dub" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="60" ></Button>
-                            <Button x:Name="FromToBtt" Grid.Column="2" InputTransparent="False" IsVisible="False" IsEnabled="False" BackgroundColor="#333333" Text="Test" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="80" ></Button>
-                            <Button x:Name="BatchDownloadBtt" Grid.Column="3" InputTransparent="False" Opacity="0" IsEnabled="False" BackgroundColor="#333333" Text="Download All" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="100" ></Button>
+                            <Button x:Name="DubBtt" Grid.Column="1" InputTransparent="False" BackgroundColor="#333333" Text="Dub" TextColor="#e70000" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="60" ></Button>
+                            <Button x:Name="FromToBtt" Grid.Column="2" InputTransparent="False" IsVisible="False" IsEnabled="False" BackgroundColor="#333333" Text="Test" TextColor="#e70000" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="80" ></Button>
+                            <Button x:Name="BatchDownloadBtt" Grid.Column="3" InputTransparent="False" Opacity="0" IsEnabled="False" BackgroundColor="#333333" Text="Download All" TextColor="#e70000" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="100" ></Button>
 
 <!--
                             <ffs:SvgCachedImage x:Name="NotificationImg" Grid.Column="3" VerticalOptions="Center" HorizontalOptions="End" ></ffs:SvgCachedImage>
@@ -228,7 +228,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                             
                             <!--   <Picker x:Name="DubPicker" IsVisible="False" VerticalOptions="Center" HorizontalOptions="Start"  FontAttributes="Bold" FontSize="Body" TextColor="Transparent" TranslationX="13"></Picker> -->
                             <!-- </StackLayout>-->
-                            <Button x:Name="SkipAnimeBtt" IsEnabled="False" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" InputTransparent="False" BackgroundColor="#333333" Text="Skip Loading" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="100" ></Button>
+                            <Button x:Name="SkipAnimeBtt" IsEnabled="False" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" InputTransparent="False" BackgroundColor="#333333" Text="Skip Loading" TextColor="#e70000" FontAttributes="Bold" FontSize="Body" CornerRadius="5" HeightRequest="37" WidthRequest="100" ></Button>
 
                         </Grid>
 
@@ -249,16 +249,16 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                 <Grid >
 
                                     <ProgressBar x:Name="EPISODESBar" ScaleX="0" Progress="1.0" ProgressColor="#303F9F" BackgroundColor="Transparent" InputTransparent="True" TranslationY="-8"></ProgressBar>
-                                    <Button x:Name="EPISODES" Margin="5"  TranslationY="10" BackgroundColor="Transparent" Text="LOADING" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="14" CornerRadius="5" HeightRequest="37" Clicked="Episodes_Clicked" ></Button>
+                                    <Button x:Name="EPISODES" Margin="5"  TranslationY="10" BackgroundColor="Transparent" Text="LOADING" TextColor="#e70000" FontAttributes="Bold" FontSize="14" CornerRadius="5" HeightRequest="37" Clicked="Episodes_Clicked" ></Button>
 
                                 </Grid>
                                 <Grid >
                                     <ProgressBar x:Name="RECOMMENDATIONSBar" ScaleX="0" Progress="1.0" ProgressColor="#303F9F"  BackgroundColor="Transparent" InputTransparent="True" TranslationY="-8"></ProgressBar>
-                                    <Button x:Name="RECOMMENDATIONS" Margin="5"  TranslationY="10" BackgroundColor="Transparent" Text="RECOMMENDATIONS" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="14" CornerRadius="5" HeightRequest="37" Clicked="Recommendations_Clicked" ></Button>
+                                    <Button x:Name="RECOMMENDATIONS" Margin="5"  TranslationY="10" BackgroundColor="Transparent" Text="RECOMMENDATIONS" TextColor="#e70000" FontAttributes="Bold" FontSize="14" CornerRadius="5" HeightRequest="37" Clicked="Recommendations_Clicked" ></Button>
                                 </Grid>
                                 <Grid x:Name="TRAILERSTAB" IsEnabled="False" IsVisible="False">
                                     <ProgressBar x:Name="TRAILERSBar" ScaleX="0" Progress="1.0" ProgressColor="#303F9F"  BackgroundColor="Transparent" InputTransparent="True" TranslationY="-8"></ProgressBar>
-                                    <Button x:Name="TRAILERS" Margin="5"  TranslationY="10" BackgroundColor="Transparent" Text="TRAILERS" TextColor="#e7e7e7" FontAttributes="Bold" FontSize="14" CornerRadius="5" HeightRequest="37" Clicked="Trailers_Clicked" ></Button>
+                                    <Button x:Name="TRAILERS" Margin="5"  TranslationY="10" BackgroundColor="Transparent" Text="TRAILERS" TextColor="#e70000" FontAttributes="Bold" FontSize="14" CornerRadius="5" HeightRequest="37" Clicked="Trailers_Clicked" ></Button>
                                 </Grid>
                             </StackLayout>
                         </Grid>

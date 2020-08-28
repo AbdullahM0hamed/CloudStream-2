@@ -103,7 +103,7 @@ namespace CloudStreamForms.Models
             CloudStreamCore.ClearCachedLink(IMDBEpisodeId);
         }
 
-        public string MainTextColor { set; get; } = "#e7e7e7";
+        public string MainTextColor { set; get; } = "#e70000";
         public string MainDarkTextColor { get; set; } = "#a4a4a4"; //"#808080";
         public string ExtraColor { get; set; } = "#a4a4a4"; //"#808080";
         public string OgTitle { set; get; }
