@@ -39,14 +39,14 @@
                     <ColumnDefinition Width="Auto"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Label x:Name="HeaderTitle" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Episode 1 hello world" TextColor="#e6e6e6" Margin="30,0" ></Label>
+                <Label x:Name="HeaderTitle" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold" Text="Episode 1 hello world" TextColor="#ff0000" Margin="30,0" ></Label>
                 
                 <ListView BackgroundColor="Transparent" x:Name="epview"  Grid.Row="0" Grid.Column="0"    ItemsSource="{Binding MyNameCollection}" SeparatorColor="Transparent"  VerticalOptions="Fill" RowHeight="40" Margin="0,40"  >
                     <ListView.ItemTemplate >
                         <DataTemplate >
                             <ViewCell >
                                 <StackLayout HorizontalOptions="{Binding LayoutCenter}" VerticalOptions="Center" >
-                                    <Label Text="{Binding Name}"  TextColor="#e6e6e6" HorizontalOptions="{Binding LayoutCenter}" VerticalOptions="Center"  FontAttributes="{Binding FontAtt}" FontSize="{Binding FontSize}" FontFamily="{Binding FontFam}" ></Label>
+                                    <Label Text="{Binding Name}"  TextColor="#ff0000" HorizontalOptions="{Binding LayoutCenter}" VerticalOptions="Center"  FontAttributes="{Binding FontAtt}" FontSize="{Binding FontSize}" FontFamily="{Binding FontFam}" ></Label>
                                 </StackLayout> 
                             </ViewCell>
                         </DataTemplate>

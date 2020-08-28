@@ -41,7 +41,7 @@
 					<ColumnDefinition Width="Auto"></ColumnDefinition>
 				</Grid.ColumnDefinitions>
 
-				<Label x:Name="HeaderTitle" HorizontalOptions="Center" VerticalOptions="End" FontSize="20" TranslationX="14" FontAttributes="Bold" Text="Episode 1 hello world" TextColor="#e6e6e6" ></Label>
+				<Label x:Name="HeaderTitle" HorizontalOptions="Center" VerticalOptions="End" FontSize="20" TranslationX="14" FontAttributes="Bold" Text="Episode 1 hello world" TextColor="#ff0000" ></Label>
 
 
                 <StackLayout  Grid.Row="1" HorizontalOptions="Start" VerticalOptions="Center" BackgroundColor="Transparent">
@@ -92,8 +92,8 @@
                             <ColumnDefinition Width="Auto"></ColumnDefinition>
                             <ColumnDefinition Width="Auto"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <Button x:Name="ConfirmButton" Grid.Row="0" Text="Login"  TextColor="#111111" CornerRadius="5" BackgroundColor="#e6e6e6" WidthRequest="120" HorizontalOptions="Center" HeightRequest="30" FontSize="16" FontAttributes="Bold" ClassId="CUST"></Button>
-						<Button x:Name="CancelButton" Grid.Row="0" Grid.Column="1" Text="Cancel" TextColor="#e6e6e6" CornerRadius="5" BackgroundColor="#111111" WidthRequest="120" HorizontalOptions="Center" HeightRequest="30" FontSize="16" FontAttributes="Bold" ClassId="CUST"></Button>
+                        <Button x:Name="ConfirmButton" Grid.Row="0" Text="Login"  TextColor="#111111" CornerRadius="5" BackgroundColor="#ff0000" WidthRequest="120" HorizontalOptions="Center" HeightRequest="30" FontSize="16" FontAttributes="Bold" ClassId="CUST"></Button>
+						<Button x:Name="CancelButton" Grid.Row="0" Grid.Column="1" Text="Cancel" TextColor="#ff0000" CornerRadius="5" BackgroundColor="#111111" WidthRequest="120" HorizontalOptions="Center" HeightRequest="30" FontSize="16" FontAttributes="Bold" ClassId="CUST"></Button>
                     </Grid>
 				</Grid>
                 </StackLayout>

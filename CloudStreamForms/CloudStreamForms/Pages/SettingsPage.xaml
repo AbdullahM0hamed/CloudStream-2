@@ -65,7 +65,7 @@
                                 </ffs:SvgCachedImage.Transformations>
                             </ffs:SvgCachedImage>
                             <Grid Grid.Column="1" HeightRequest="50" RowSpacing="-10" VerticalOptions="Center" InputTransparent="True">
-                                <Label Text="Instant search" HorizontalOptions="Start" VerticalOptions="Center"  FontSize="Body"  TextColor="#e6e6e6"></Label>
+                                <Label Text="Instant search" HorizontalOptions="Start" VerticalOptions="Center"  FontSize="Body"  TextColor="#ff0000"></Label>
                                 <Label Grid.Row="1" Text="Search every caracter" VerticalOptions="Center" FontSize="12" TextColor="#AAA"></Label>
                             </Grid>
                         </Grid>

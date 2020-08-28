@@ -128,7 +128,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                     <Grid Grid.Row="0"  Grid.Column="1">
                                         <ffs:SvgCachedImage x:Name="SubtitleBtt" HeightRequest="40" Source="subtitles.svg"  BackgroundColor="Transparent"  WidthRequest="50">
                                             <ffs:SvgCachedImage.Transformations>
-                                                <ffTransformations:TintTransformation HexColor="#e6e6e6" ></ffTransformations:TintTransformation>
+                                                <ffTransformations:TintTransformation HexColor="#ff0000" ></ffTransformations:TintTransformation>
 
                                             </ffs:SvgCachedImage.Transformations>
                                         </ffs:SvgCachedImage>
@@ -142,7 +142,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
 
                                         <ffs:SvgCachedImage x:Name="ViewToggle" InputTransparent="True" BackgroundColor="Transparent"  WidthRequest="50">
                                             <ffs:SvgCachedImage.Transformations>
-                                                <ffTransformations:TintTransformation HexColor="#e6e6e6" ></ffTransformations:TintTransformation>
+                                                <ffTransformations:TintTransformation HexColor="#ff0000" ></ffTransformations:TintTransformation>
 
                                             </ffs:SvgCachedImage.Transformations>
                                         </ffs:SvgCachedImage>
@@ -156,7 +156,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                         <ffs:SvgCachedImage x:Name="ShareBtt"  HeightRequest="40" Source="share_white_48dp.svg" BackgroundColor="Transparent" Scale="1.2"  WidthRequest="50">
                                             <!--Scale="0.8"-->
                                             <ffs:SvgCachedImage.Transformations>
-                                                <ffTransformations:TintTransformation HexColor="#e6e6e6" ></ffTransformations:TintTransformation>
+                                                <ffTransformations:TintTransformation HexColor="#ff0000" ></ffTransformations:TintTransformation>
 
                                             </ffs:SvgCachedImage.Transformations>
                                         </ffs:SvgCachedImage>
@@ -169,7 +169,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                     <Grid Grid.Row="0"  Grid.Column="4">
                                         <ffs:SvgCachedImage x:Name="IMDbBtt" HeightRequest="40" Source="public_globe.svg" BackgroundColor="Transparent"  >
                                             <ffs:SvgCachedImage.Transformations>
-                                                <ffTransformations:TintTransformation HexColor="#e6e6e6" ></ffTransformations:TintTransformation>
+                                                <ffTransformations:TintTransformation HexColor="#ff0000" ></ffTransformations:TintTransformation>
 
                                             </ffs:SvgCachedImage.Transformations>
                                         </ffs:SvgCachedImage>
@@ -182,7 +182,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                                     <Grid Grid.Row="0"  Grid.Column="5" x:Name="MALB">
                                         <ff:CachedImage x:Name="MALBtt" HeightRequest="30" Source="MALWhite.png" BackgroundColor="Transparent" TranslationY="0" TranslationX="7" Scale="0.8" WidthRequest="50">
                                             <ff:CachedImage.Transformations>
-                                                <ffTransformations:TintTransformation HexColor="#e6e6e6" ></ffTransformations:TintTransformation>
+                                                <ffTransformations:TintTransformation HexColor="#ff0000" ></ffTransformations:TintTransformation>
 
                                             </ff:CachedImage.Transformations>
                                         </ff:CachedImage>
@@ -270,7 +270,7 @@ xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=F
                    
                    > -->
                     <!--   <ProgressBar x:Name="FishProgress" IsVisible="False" IsEnabled="False" ProgressColor="#303F9F" Opacity="0" InputTransparent="True" VerticalOptions="Start" Margin="10,0"></ProgressBar>-->
-                 <!--   <Label x:Name="FishProgressTxt"   Text="" HorizontalOptions="Center" TextColor="#e6e6e6"></Label>-->
+                 <!--   <Label x:Name="FishProgressTxt"   Text="" HorizontalOptions="Center" TextColor="#ff0000"></Label>-->
 
                     <Grid  x:Name="RecFadeEpisodes">
                         <StackLayout x:Name="FadeEpisodes" >

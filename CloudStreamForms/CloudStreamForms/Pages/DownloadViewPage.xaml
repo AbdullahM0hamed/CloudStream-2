@@ -27,7 +27,7 @@
 
                 </ff:CachedImage>
                 <ImageButton x:Name="ChromeCastBtt" BackgroundColor="Transparent" Clicked="ChromeCastBtt_Clicked"  WidthRequest="40" HeightRequest="40"  VerticalOptions="Center" HorizontalOptions="Start"></ImageButton>
-                <Label VerticalOptions="Center" x:Name="ChromeName" Grid.Column="1" TextColor="#e6e6e6" Text="Not connected" TranslationX="-3"></Label>
+                <Label VerticalOptions="Center" x:Name="ChromeName" Grid.Column="1" TextColor="#ff0000" Text="Not connected" TranslationX="-3"></Label>
 
             </Grid>
 
