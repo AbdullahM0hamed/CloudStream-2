@@ -22,7 +22,7 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <xe:BorderView xe:TouchEffect.Color="#F00" CornerRadius="5" x:Name="HomeBtt">
+            <xe:BorderView xe:TouchEffect.Color="White" CornerRadius="5" x:Name="HomeBtt">
                 <Label Text="Home" FontSize="17" VerticalOptions="Center" Scale="1.2" FontAttributes="Bold" MinimumHeightRequest="50"  HorizontalTextAlignment="Center" TextColor="White" x:Name="HomeLbl"></Label>
             </xe:BorderView>
             <xe:BorderView Grid.Column="1" xe:TouchEffect.Color="White" CornerRadius="5" x:Name="RelatedBtt">
@@ -39,7 +39,7 @@
         <Grid VerticalOptions="Fill"   HeightRequest="20000">
 
             <Image x:Name="baseImg" IsVisible="False" VerticalOptions="Fill" HorizontalOptions="Fill" Scale="0.6" BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  InputTransparent="True" TranslationY="-40"></Image>
-            <Label x:Name="baseTxt" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" TextColor="#880000" ClassId="CUST" FontAttributes="Bold" FontSize="18" TranslationY="80" InputTransparent="True" Text="No Bookmarks"></Label>
+            <Label x:Name="baseTxt" IsVisible="False" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" TextColor="#434343" ClassId="CUST" FontAttributes="Bold" FontSize="18" TranslationY="80" InputTransparent="True" Text="No Bookmarks"></Label>
             <!--<Button x:Name="baseMore" IsVisible="true" BackgroundColor="White" CornerRadius="10" TextColor="Black" ClassId="CUST" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"  VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="30" FontAttributes="Bold" FontSize="18" TranslationY="200" Padding="10,0" InputTransparent="True" Text="Search for more titles"></Button>-->
 
 

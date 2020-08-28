@@ -48,7 +48,7 @@
 											<RowDefinition Height="Auto" />
 										</Grid.RowDefinitions>
 										<Grid Grid.Row="0"  Grid.Column="0" >
-										<Button InputTransparent="True" Text="{Binding Rating}" VerticalOptions="Center" TextColor="#F00" FontAttributes="Bold" FontSize="14" ClassId="CUST" BackgroundColor="#2291ff" CornerRadius="5" WidthRequest="35"></Button>
+										<Button InputTransparent="True" Text="{Binding Rating}" VerticalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="14" ClassId="CUST" BackgroundColor="#2291ff" CornerRadius="5" WidthRequest="35"></Button>
 							<!--		<Label Text="{Binding Rating}" VerticalOptions="Center" TextColor="#e6e6e6" FontAttributes="Bold" FontSize="16" BackgroundColor="#2291ff"/> -->
 										</Grid>
 										<Grid Grid.Row="0"  Grid.Column="1" >

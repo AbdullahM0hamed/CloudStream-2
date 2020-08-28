@@ -409,7 +409,7 @@ namespace CloudStreamForms.Pages
                 }
 
                 foreach (var set in settings) {
-                    AddChild(new Label() { Text = set.header, FontSize = 17, FontAttributes = FontAttributes.Bold, TranslationX = 10, Margin = new Thickness(10, 20, 10, 10), TextColor = Color.FromHex("#ff0000") });
+                    AddChild(new Label() { Text = set.header, FontSize = 17, FontAttributes = FontAttributes.Bold, TranslationX = 10, Margin = new Thickness(10, 20, 10, 10), TextColor = Color.White });
 
                     foreach (var subSet in set.settings) {
 
