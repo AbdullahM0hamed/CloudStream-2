@@ -413,7 +413,7 @@ namespace CloudStreamForms.Pages
 
                     foreach (var subSet in set.settings) {
 
-                        var mainLabel = new Label() { Text = subSet.mainTxt, VerticalOptions = LayoutOptions.Center, FontSize = 16, TextColor = Color.FromHex("#e6e6e6") };
+                        var mainLabel = new Label() { Text = subSet.mainTxt, VerticalOptions = LayoutOptions.Center, FontSize = 16, TextColor = Color.FromHex("#ff0000") };
                         var sublabel = new Label() { Text = subSet.descriptTxt, VerticalOptions = LayoutOptions.Center, FontSize = 12, TextColor = Color.FromHex("#AAA") };
                         var _img = new FFImageLoading.Forms.CachedImage() {
                             HorizontalOptions = LayoutOptions.Start,

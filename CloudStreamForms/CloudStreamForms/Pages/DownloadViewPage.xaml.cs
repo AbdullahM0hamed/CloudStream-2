@@ -257,7 +257,7 @@ namespace CloudStreamForms
             else {
                 ChromeName.Text = "Not connected";
             }
-            ChromeName.TextColor = MainChrome.CurrentImage > 0 ? Color.FromHex(MainPage.LIGHT_BLUE_COLOR) : Color.FromHex("#e6e6e6");
+            ChromeName.TextColor = MainChrome.CurrentImage > 0 ? Color.FromHex(MainPage.LIGHT_BLUE_COLOR) : Color.FromHex("#ff0000");
         }
         private void MainChrome_OnChromeImageChanged(object sender, string e)
         {

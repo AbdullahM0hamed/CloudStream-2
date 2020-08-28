@@ -69,7 +69,7 @@ namespace CloudStreamForms
                     //  desLabel.FontSize = nameLabel.FontSize / 1.2f;
                     desLabel.FontSize = 12;
                     desLabel.TextColor = Color.FromHex("#828282"); // 
-                    nameLabel.TextColor = Color.FromHex("#e6e6e6");
+                    nameLabel.TextColor = Color.FromHex("#ff0000");
                     nameLabel.FontSize = 15;
 
                     desLabel.TranslationX = 10;
