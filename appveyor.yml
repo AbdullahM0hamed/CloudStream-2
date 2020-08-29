@@ -1,6 +1,6 @@
 before_build:
   - nuget restore CloudStreamForms.sln
 build_script:
-  - msbuild /m /p:Configuration=Release /p:AndroidSupportedAbis=armeabi-v7a /t:SignAndroidPackage CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
+  - msbuild /m /p:Configuration=Release /p:AndroidSupportedAbis=armeabi-v7a,armeabi,x86 /t:SignAndroidPackage CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 artifacts:
   - path: 'CloudStreamForms\CloudStreamForms.Android\bin\Release\com.CloudStreamForms.CloudStreamForms.apk'
