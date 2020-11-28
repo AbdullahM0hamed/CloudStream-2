@@ -1,5 +1,5 @@
 before_build:
-  - nuget restore CloudStreamForms.sln
+  - nuget restore CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
 build_script:
   - msbuild /m /p:OutputPath=bin.armeabi-v7a /p:Configuration=Release /p:AndroidSupportedAbis=armeabi-v7a /t:SignAndroidPackage CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
   - msbuild /m /p:OutputPath=bin.arm64-v8a /p:Configuration=Release /p:AndroidSupportedAbis=arm64-v8a /t:SignAndroidPackage CloudStreamForms/CloudStreamForms.Android/CloudStreamForms.Android.csproj
